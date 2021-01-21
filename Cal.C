@@ -3,6 +3,10 @@ void add(int a,int b)
 {
     printf("%d",  a + b);
 }
+void sub(int a,int b)
+{
+    printf("%d",  a + b);
+}
 int main()
 {
   
@@ -11,5 +15,6 @@ int main()
     printf("Enter two operands: ");
     scanf("%d %d", &first_num, &second_num);
     add(first_num,second_num);
+    sub(first_num,second_num);
     return 0;
 }
